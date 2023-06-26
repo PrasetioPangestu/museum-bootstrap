@@ -1,0 +1,72 @@
+body {
+  background: rgb(36, 35, 35);
+  font-family: "Nunito", sans-serif;
+  overflow-x: hidden;
+}
+
+section {
+  color: white;
+}
+
+#nav .navbar-brand {
+  color: rgb(38, 134, 158);
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+}
+
+.navbar.scrolled {
+  background-color: white;
+  /* transition: background 500ms; */
+}
+
+#nav .nav-link {
+  color: white;
+  font-family: "Nunito", sans-serif;
+}
+
+#nav .nav-link:hover {
+  color: blue;
+}
+
+h1 {
+  color: white;
+}
+
+#dino2 {
+  width: 250px;
+}
+
+#dino-home {
+  width: 150%;
+  /* object-fit: cover; */
+}
+
+#title-head {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+.blurb h2 {
+  color: white;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.blurb p {
+  color: white;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 1200px) {
+  #title-head h1 {
+    font-weight: 100;
+    font-size: 3rem;
+  }
+}
